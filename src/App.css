@@ -1,0 +1,36 @@
+html,
+body,
+div,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+#root,
+.App {
+  height: 100vh;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.edge-cases {
+  margin-top: 40px;
+  min-height: 20px;
+}
+
+.no-users {
+}

@@ -1,0 +1,43 @@
+.actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.searchForm {
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px 8px 20px;
+}
+
+.searchForm input[type="search"] {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+
+.infinite-scroll {
+  display: flex;
+  gap: 6px;
+  align-items: flex-start;
+  margin-top: 8px;
+}
+
+.infinite-scroll input[type="checkbox"] {
+  margin: 0;
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .infinite-scroll {
+    align-items: center;
+  }
+
+  .infinite-scroll input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+  }
+}
